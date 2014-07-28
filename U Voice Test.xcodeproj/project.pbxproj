@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54214BA51985FB560092D686 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54214BA41985FB560092D686 /* AppDelegate.swift */; };
+		54214BA81985FB570092D686 /* U_Voice_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 54214BA61985FB570092D686 /* U_Voice_Test.xcdatamodeld */; };
+		54214BAA1985FB570092D686 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54214BA91985FB570092D686 /* MasterViewController.swift */; };
+		54214BAC1985FB570092D686 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54214BAB1985FB570092D686 /* DetailViewController.swift */; };
+		54214BAF1985FB570092D686 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54214BAD1985FB570092D686 /* Main.storyboard */; };
+		54214BB11985FB570092D686 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54214BB01985FB570092D686 /* Images.xcassets */; };
+		54214BBD1985FB570092D686 /* U_Voice_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54214BBC1985FB570092D686 /* U_Voice_TestTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54214BB71985FB570092D686 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54214B971985FB550092D686 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54214B9E1985FB550092D686;
+			remoteInfo = "U Voice Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54214B9F1985FB560092D686 /* U Voice Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "U Voice Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54214BA31985FB560092D686 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54214BA41985FB560092D686 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		54214BA71985FB570092D686 /* U_Voice_Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = U_Voice_Test.xcdatamodel; sourceTree = "<group>"; };
+		54214BA91985FB570092D686 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		54214BAB1985FB570092D686 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		54214BAE1985FB570092D686 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54214BB01985FB570092D686 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		54214BB61985FB570092D686 /* U Voice TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "U Voice TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54214BBB1985FB570092D686 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54214BBC1985FB570092D686 /* U_Voice_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = U_Voice_TestTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54214B9C1985FB550092D686 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54214BB31985FB570092D686 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54214B961985FB550092D686 = {
+			isa = PBXGroup;
+			children = (
+				54214BA11985FB560092D686 /* U Voice Test */,
+				54214BB91985FB570092D686 /* U Voice TestTests */,
+				54214BA01985FB560092D686 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54214BA01985FB560092D686 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54214B9F1985FB560092D686 /* U Voice Test.app */,
+				54214BB61985FB570092D686 /* U Voice TestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54214BA11985FB560092D686 /* U Voice Test */ = {
+			isa = PBXGroup;
+			children = (
+				54214BA41985FB560092D686 /* AppDelegate.swift */,
+				54214BA91985FB570092D686 /* MasterViewController.swift */,
+				54214BAB1985FB570092D686 /* DetailViewController.swift */,
+				54214BAD1985FB570092D686 /* Main.storyboard */,
+				54214BB01985FB570092D686 /* Images.xcassets */,
+				54214BA61985FB570092D686 /* U_Voice_Test.xcdatamodeld */,
+				54214BA21985FB560092D686 /* Supporting Files */,
+			);
+			path = "U Voice Test";
+			sourceTree = "<group>";
+		};
+		54214BA21985FB560092D686 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				54214BA31985FB560092D686 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		54214BB91985FB570092D686 /* U Voice TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				54214BBC1985FB570092D686 /* U_Voice_TestTests.swift */,
+				54214BBA1985FB570092D686 /* Supporting Files */,
+			);
+			path = "U Voice TestTests";
+			sourceTree = "<group>";
+		};
+		54214BBA1985FB570092D686 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				54214BBB1985FB570092D686 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54214B9E1985FB550092D686 /* U Voice Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54214BC01985FB570092D686 /* Build configuration list for PBXNativeTarget "U Voice Test" */;
+			buildPhases = (
+				54214B9B1985FB550092D686 /* Sources */,
+				54214B9C1985FB550092D686 /* Frameworks */,
+				54214B9D1985FB550092D686 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "U Voice Test";
+			productName = "U Voice Test";
+			productReference = 54214B9F1985FB560092D686 /* U Voice Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54214BB51985FB570092D686 /* U Voice TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54214BC31985FB570092D686 /* Build configuration list for PBXNativeTarget "U Voice TestTests" */;
+			buildPhases = (
+				54214BB21985FB570092D686 /* Sources */,
+				54214BB31985FB570092D686 /* Frameworks */,
+				54214BB41985FB570092D686 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54214BB81985FB570092D686 /* PBXTargetDependency */,
+			);
+			name = "U Voice TestTests";
+			productName = "U Voice TestTests";
+			productReference = 54214BB61985FB570092D686 /* U Voice TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54214B971985FB550092D686 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = YangKang;
+				TargetAttributes = {
+					54214B9E1985FB550092D686 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					54214BB51985FB570092D686 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 54214B9E1985FB550092D686;
+					};
+				};
+			};
+			buildConfigurationList = 54214B9A1985FB550092D686 /* Build configuration list for PBXProject "U Voice Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54214B961985FB550092D686;
+			productRefGroup = 54214BA01985FB560092D686 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54214B9E1985FB550092D686 /* U Voice Test */,
+				54214BB51985FB570092D686 /* U Voice TestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54214B9D1985FB550092D686 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54214BAF1985FB570092D686 /* Main.storyboard in Resources */,
+				54214BB11985FB570092D686 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54214BB41985FB570092D686 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54214B9B1985FB550092D686 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54214BA81985FB570092D686 /* U_Voice_Test.xcdatamodeld in Sources */,
+				54214BA51985FB560092D686 /* AppDelegate.swift in Sources */,
+				54214BAA1985FB570092D686 /* MasterViewController.swift in Sources */,
+				54214BAC1985FB570092D686 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54214BB21985FB570092D686 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54214BBD1985FB570092D686 /* U_Voice_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54214BB81985FB570092D686 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54214B9E1985FB550092D686 /* U Voice Test */;
+			targetProxy = 54214BB71985FB570092D686 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54214BAD1985FB570092D686 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54214BAE1985FB570092D686 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54214BBE1985FB570092D686 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		54214BBF1985FB570092D686 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54214BC11985FB570092D686 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "U Voice Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		54214BC21985FB570092D686 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "U Voice Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		54214BC41985FB570092D686 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/U Voice Test.app/U Voice Test";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "U Voice TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		54214BC51985FB570092D686 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/U Voice Test.app/U Voice Test";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "U Voice TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54214B9A1985FB550092D686 /* Build configuration list for PBXProject "U Voice Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54214BBE1985FB570092D686 /* Debug */,
+				54214BBF1985FB570092D686 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54214BC01985FB570092D686 /* Build configuration list for PBXNativeTarget "U Voice Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54214BC11985FB570092D686 /* Debug */,
+				54214BC21985FB570092D686 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		54214BC31985FB570092D686 /* Build configuration list for PBXNativeTarget "U Voice TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54214BC41985FB570092D686 /* Debug */,
+				54214BC51985FB570092D686 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		54214BA61985FB570092D686 /* U_Voice_Test.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				54214BA71985FB570092D686 /* U_Voice_Test.xcdatamodel */,
+			);
+			currentVersion = 54214BA71985FB570092D686 /* U_Voice_Test.xcdatamodel */;
+			path = U_Voice_Test.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 54214B971985FB550092D686 /* Project object */;
+}
